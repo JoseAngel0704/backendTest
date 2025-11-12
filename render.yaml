@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: backend-turing-test
+    env: dotnet
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/BackendTuringTest.dll
+    plan: free
+    branch: main
+    autoDeploy: true
