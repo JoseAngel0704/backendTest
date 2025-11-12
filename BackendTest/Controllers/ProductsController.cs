@@ -8,7 +8,7 @@ namespace BackendTest.Controllers
     {
         private static List<Product> products = new()
         {
-            new Product { Id = 1, Name = "Laptop", Price = 12000 },
+            new Product { Id = 1, Name = "Laptop hp", Price = 12000 },
             new Product { Id = 2, Name = "Mouse", Price = 300 },
             new Product { Id = 3, Name = "Teclado", Price = 450 }
         };
