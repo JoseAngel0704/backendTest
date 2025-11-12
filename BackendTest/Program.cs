@@ -6,7 +6,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
         policy => policy
-            .WithOrigins("http://localhost:5173") // tu frontend local
+            .WithOrigins("https://frontend-test-nu-eight.vercel.app") // tu frontend local
             .AllowAnyHeader()
             .AllowAnyMethod());
 });
